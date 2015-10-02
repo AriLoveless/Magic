@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Search</title>
+<link href="../styles/main.css" rel="stylesheet" type="text/css" />
+
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="wrapper">
+  <header id = "top">
+    <h1>&nbsp;</h1>
+
+  <nav id = "mainnav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>Search</li>
+      <li>        <a href="insert.php">Insert New Card</a>      </li>
+      <li><a href="Browse.php">Browse</a></li>
+      <li><a href="invent.php">Inventory List</a></li>
+    </ul> 
+  </nav>
+  </header>
+     <div id="hero">
+    <article>
+      <form action="results.php" method="post" name="form2" id="form2">
+        <p>Search for a Card</p>
+        <p>
+          <label for="name">Name of Card</label>
+          <input type="text" name="name" id="name" />
+          <label for="Types">Type of Card</label>
+          <select name="Types" id="Types">
+            <option value="null">Unknown</option>
+            <option value="Artifact">Artifact</option>
+            <option value="Creature">Creature</option>
+            <option value="Enchantment">Enchantment</option>
+            <option value="Instant">Instant</option>
+            <option value="Planeswalker">Planeswalker</option>
+            <option value="Sorcery">Sorcery</option>
+            <option value="Plane">Plane</option>
+            <option value="Scheme">Scheme</option>
+            <option value="ArtifactCreature">ArtifactCreature</option>
+            <option value="Land" selected="selected">Land</option>
+            <option value="Conspiracy">Conspiracy</option>
+            <option value="Vanguard">Vanguard</option>
+            <option value="TribalSorcery">TribalSorcery</option>
+            <option value="EnchantmentCreature">EnchantmentCreature</option>
+            <option value="TribalInstant">TribalInstant</option>
+            <option value="TribalEnchantment">TribalEnchantment</option>
+          </select>
+        </p>
+        <p>Color(s)        </p>
+        <table width="200"> 
+          <tr> 
+            <td><h2>
+              <label> 
+                <input type="checkbox" name="Colors[]" value="Blue"  /> 
+                Blue</label>
+            </h2></td> 
+          </tr> 
+          <tr> 
+            <td><h2>
+              <label> 
+                <input type="checkbox" name="Colors[]" value="Uncolored"  /> 
+                Uncolored</label>
+            </h2></td> 
+          </tr> 
+          <tr> 
+            <td><h2>
+              <label> 
+                <input type="checkbox" name="Colors[]" value="White"  /> 
+                White</label>
+            </h2></td> 
+          </tr> 
+          <tr> 
+            <td><h2>
+              <label> 
+                <input type="checkbox" name="Colors[]" value="Black "  /> 
+                Black</label>
+            </h2></td> 
+          </tr> 
+          <tr> 
+            <td><h2>
+              <label> 
+                <input type="checkbox" name="Colors[]" value="Red"  /> 
+                Red</label>
+            </h2></td> 
+          </tr> 
+          <tr> 
+            <td><h2>
+              <label> 
+                <input type="checkbox" name="Colors[]" value="Green" /> 
+                Green</label>
+            </h2></td> 
+          </tr> 
+        </table>
+        <p>
+          <input type="submit" name="submit" id="submit" value="Submit" />
+        </p>
+        <p>&nbsp;</p>
+      </form>
+      <h2><img src="/Web stuff/magicdb/ajani_not_in_born_of_the_gods_BNG.png" width="512" height="417" /><img src="/Web stuff/magicdb/garruk_relentless_by_ja_renders-d783nv2.png" width="488" height="399" /></h2>
+    </article>
+  </div>
+  <article id="main">
+    <h2>&nbsp;</h2>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </article>
+  <aside id="sidebar"> </aside>
+  <footer>
+    <p>Magic: the Gathering © Copyright Wizards of the Coast</p>
+  </footer>
+</div>
+</body>
+</html>

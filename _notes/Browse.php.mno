@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_brows" value="name:CardName;datatype:string,name:ManaCost;datatype:string,name:ConvertedManaCost;datatype:int,name:Colors;datatype:string,name:Type;datatype:string,name:Text;datatype:string" />
+	<infoitem key="UD_browse" value="name:CardName;datatype:string,name:ManaCost;datatype:string,name:ConvertedManaCost;datatype:int,name:Colors;datatype:string,name:Type;datatype:string,name:Text;datatype:string" />
+	<infoitem key="UD_Browse" value="name:CardName;datatype:string,name:ManaCost;datatype:string" />
+</info>
